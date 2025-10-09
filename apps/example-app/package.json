@@ -1,0 +1,23 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "description": "Example application using PowerBots packages",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@powerbots/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.0"
+  }
+}

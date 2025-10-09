@@ -12,7 +12,8 @@
     "lint:fix": "eslint . --fix",
     "docs": "typedoc",
     "docs:watch": "typedoc --watch",
-    "docs:json": "typedoc --json docs/documentation.json"
+    "docs:json": "typedoc --json docs/documentation.json",
+    "example": "cd apps/example-app && pnpm start"
   },
   "keywords": [],
   "author": "",
